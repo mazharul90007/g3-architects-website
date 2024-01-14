@@ -19,6 +19,12 @@ font-family: 'Work Sans', sans-serif;
     font-weight: 600;
     cursor: pointer;
 }
+.common-paragraph{
+color:#727272;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+}
 /*Shared style css end*/
 /*Header Part css start*/
 header {
@@ -67,12 +73,6 @@ nav li a {
     font-weight: 700;
     color: #131313;
 }
-.banner-description{
-color: var(#727272);
-font-size: 1rem;
-font-weight: 400;
-line-height: 26px;
-}
 .banner img {
     margin-top: 20px;
     width: 100%;
@@ -81,7 +81,7 @@ line-height: 26px;
 /*main part css start*/
 main {
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 70px auto;
 }
 /*Teams part css start*/
 .teams-container {

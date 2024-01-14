@@ -5,14 +5,20 @@
     header {
         padding: 10px;
     }
-    nav {
+    nav, .teams-container {
         flex-direction: column;
+    }
+    .teams-img-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .teams-content {
+        padding: 0 20px;
     }
 }
 
 /*Tablet or medium devices*/
 @media screen and (min-width: 576px) and (max-width: 992px) {
-    nav {
+    nav, .teams-container {
         flex-direction: column;
     }
     header {
