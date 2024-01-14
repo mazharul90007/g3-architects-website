@@ -4,11 +4,22 @@
 /*
 font-family: 'Work Sans', sans-serif;
 */
+/*Shared style css start*/
 
 * {
     font-family: 'Work Sans', sans-serif;
 }
-
+.btn-primary{
+    border-radius: 8px;
+    background: #FF900E;
+    padding: 20px 25px;
+    color: #FFF;
+    border: none;
+    font-size: 1.25rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+/*Shared style css end*/
 /*Header Part css start*/
 header {
     background: rgba(255, 144, 14, 0.10);
@@ -61,5 +72,9 @@ color: var(#727272);
 font-size: 1rem;
 font-weight: 400;
 line-height: 26px;
+}
+.banner img {
+    margin-top: 20px;
+    width: 100%;
 }
 /*Header Part css end*/
