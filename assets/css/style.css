@@ -9,7 +9,8 @@ font-family: 'Work Sans', sans-serif;
 * {
     font-family: 'Work Sans', sans-serif;
 }
-.btn-primary{
+
+.btn-primary {
     border-radius: 8px;
     background: #FF900E;
     padding: 20px 25px;
@@ -19,12 +20,20 @@ font-family: 'Work Sans', sans-serif;
     font-weight: 600;
     cursor: pointer;
 }
-.common-paragraph{
-color:#727272;
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
+
+.common-paragraph {
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
 }
+
+.common-heading {
+    color: var(#131313);
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
 /*Shared style css end*/
 /*Header Part css start*/
 header {
@@ -47,12 +56,12 @@ nav li {
     margin-right: 30px;
 }
 
-.nav-title {
+/* .nav-title {
     color: var(#131313);
     text-align: center;
     font-size: 2.5rem;
     font-weight: 700;
-}
+} */
 
 nav li a {
     color: var(#424242);
@@ -63,50 +72,88 @@ nav li a {
     text-decoration: none;
 
 }
+
 .banner-content {
     max-width: 800px;
     text-align: center;
     margin: 0 auto;
 }
-.banner-title{
+
+.banner-title {
     font-size: 4rem;
     font-weight: 700;
     color: #131313;
 }
+
 .banner img {
     margin-top: 20px;
     width: 100%;
 }
+
 /*Header Part css end*/
 /*main part css start*/
 main {
     max-width: 1440px;
     margin: 70px auto;
 }
+
 /*Teams part css start*/
 .teams-container {
     display: flex;
     align-items: center;
 }
+
 .teams-img-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
 
 }
+
 .teams-content {
     padding: 0 70px;
 }
-.teams-title{
+
+.teams-title {
     font-size: 2.8rem;
 }
-.quick-list{
+
+.quick-list {
     font-weight: 500;
     color: #727272;
 }
-.text-features{
+
+.text-features {
     font-weight: 700;
     color: #FF900E;
 }
+
 /*Teams part css end*/
+/*Facts part css start*/
+.facts-card-container {
+    display: flex;
+    justify-content: space-around;
+}
+.facts-card-container .card {
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding: 30px;
+}
+.facts-card-container .card-title {
+    color: #727272;
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+}
+.facts-card-container .card-stats{
+    font-size: 2.8rem;
+    color: #424242;
+    font-weight: 600;
+    padding: 0;
+    margin: 10px 0;
+}
+
+/*Facts part css end*/
 /*main part css end*/
