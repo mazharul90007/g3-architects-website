@@ -5,21 +5,45 @@
     header {
         padding: 10px;
     }
-    nav, .teams-container {
+    nav, .teams-container, .facts-card-container, .sponsors-img-container {
         flex-direction: column;
     }
     .teams-img-container{
         grid-template-columns: repeat(1, 1fr);
     }
-    .teams-content {
-        padding: 0 20px;
+    .teams-content, .facts-card-container {
+        padding: 20px;
     }
+    .sponsors-img-container img {
+        width: 165px;
+    }
+    .sponsors-img-container{
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-evenly;
+        gap: 40px;
+        align-items: center;
+    }
+    .facts-card-container{
+        gap: 20px;
+    }
+    
 }
 
 /*Tablet or medium devices*/
 @media screen and (min-width: 576px) and (max-width: 992px) {
-    nav, .teams-container {
+    nav, .teams-container, .sponsors-img-container {
         flex-direction: column;
+    }
+    .sponsors-img-container img {
+        width: 250px;
+    }
+    .sponsors-img-container{
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-evenly;
+        gap: 40px;
+        align-items: center;
     }
     header {
         padding: 20px;
